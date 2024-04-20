@@ -16,8 +16,7 @@ import euder.cursomc.services.CategoriaService;
 @RestController
 @RequestMapping(value="/Categorias")
 public class CategoriaResource {
-	
-	
+		
 	@Autowired
 	private CategoriaService service;
 	
